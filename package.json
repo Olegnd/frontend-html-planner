@@ -1,0 +1,16 @@
+{
+	"name": "frontend-html-planner",
+	"description": "Homework #2",
+	"author": "noname",
+	"version": "1.0.0",
+	"dependencies": {
+
+	},
+	"devDependencies": {
+		"grunt": "latest",
+		"grunt-contrib-csslint": "latest",
+		"grunt-contrib-watch": "latest",
+		"grunt-htmlhint":  "latest",
+        "grunt-w3c-html-validation": "latest"
+	}
+}
