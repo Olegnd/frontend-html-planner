@@ -2,15 +2,19 @@
 	"name": "frontend-html-planner",
 	"description": "Homework #2",
 	"author": "noname",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"dependencies": {
 
 	},
 	"devDependencies": {
 		"grunt": "latest",
-		"grunt-contrib-csslint": "latest",
-		"grunt-contrib-watch": "latest",
-		"grunt-htmlhint":  "latest",
-        "grunt-w3c-html-validation": "latest"
+		"grunt-contrib-csslint": "1.0.0",
+		"grunt-contrib-watch": "1.0.0",
+		"grunt-htmlhint":  "0.9.13",
+        "grunt-w3c-html-validation": "0.1.8"
+	},
+	"scripts": {
+		"live": "grunt live",
+		"analize": "grunt htmlcode & grunt htmlvalidate & grunt csscode"
 	}
 }

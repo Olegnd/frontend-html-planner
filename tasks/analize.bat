@@ -1,5 +1,3 @@
 cd ..
-call grunt htmlcode
-call grunt htmlvalidate
-call grunt csscode
+call npm run analize
 pause
